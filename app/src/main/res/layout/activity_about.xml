@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/homecolor">
+
+        <ImageView
+            android:id="@+id/back_webview"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:src="@drawable/back"></ImageView>
+    </LinearLayout>
+<ImageView
+    android:src="@drawable/chinese"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="top|center"
+    android:layout_marginTop="50dp"
+    >
+</ImageView>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="小学语文吧"
+        android:textStyle="bold"
+        android:textSize="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/homecolor_pluse"
+        android:text="version: 1.1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="北京爱语吧科技有限公司出品"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/myTextview"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="京ICP备14035507号-29A">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel：400 888 1905">
+
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:id="@+id/detele"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/person_icon_4"></ImageView>
+
+        <TextView
+            android:id="@+id/detele_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/main4"
+            android:text=" 注销账户"
+            android:textSize="15dp"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

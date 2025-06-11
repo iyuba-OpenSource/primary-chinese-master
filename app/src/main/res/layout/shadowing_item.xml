@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shadowing_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    android:background="@drawable/shadowing_backgroud"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="1/16"
+        android:textSize="15dp"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/small_shadowing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/line_image"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/image_begin"
+            android:padding="3dp"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/begin"
+            android:layout_weight="1">
+        </ImageView>
+        <ImageView
+            android:id="@+id/image_microphone"
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/microphone"
+            android:layout_weight="1">
+        </ImageView>
+        <ImageView
+            android:id="@+id/image_listen"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/listen"
+            android:layout_weight="1">
+        </ImageView>
+        <TextView
+            android:id="@+id/text_score"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="100"
+            android:textSize="20dp"
+            android:gravity="center"
+            ></TextView>
+
+    </LinearLayout>
+</LinearLayout>

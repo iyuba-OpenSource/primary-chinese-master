@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="0dp" android:bottom="0dp" >
+        <shape android:shape="rectangle">
+            <solid android:color="#FCE0CC" /> <!-- 设置背景颜色 -->
+            <!--            <corners android:topLeftRadius="20dp" android:topRightRadius="20dp" /> &lt;!&ndash; 设置上边圆角半径 &ndash;&gt;-->
+        </shape>
+    </item>
+    <item android:top="0dp" android:bottom="0dp" >
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" /> <!-- 设置背景颜色 -->
+            <corners android:topLeftRadius="20dp" android:topRightRadius="20dp" android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp"/> <!-- 设置上边圆角半径 -->
+        </shape>
+    </item>
+    <!--    <item android:top="18dp">-->
+    <!--        <shape android:shape="rectangle">-->
+    <!--            <solid android:color="#FFFFFF" /> &lt;!&ndash; 设置背景颜色 &ndash;&gt;-->
+    <!--        </shape>-->
+    <!--    </item>-->
+</layer-list>

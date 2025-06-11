@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">小学语文吧</string>
+    <string name="title_activity_main">Leanback MainActivity</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_text2_adapter">Text2Adapter</string>
+    <string name="title_activity_shadowing">ShadowingActivity</string>
+    <string name="title_activity_three">ThreeActivity</string>
+    <string name="title_activity_buy">BuyActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <dimen name="toolbar_title_text_size">16sp</dimen>
+    <string name="alert">Alert</string>
+    <string name="answer">Answer</string>
+    <string name="article">Article</string>
+    <string name="back">Back</string>
+    <string name="birthday">Birthday</string>
+    <string name="cancel">Cancel</string>
+    <string name="comment">评论</string>
+    <!--    <string name="comment">Comment</string>-->
+    <string name="commit">Commit</string>
+    <string name="confirm">Confirm</string>
+    <string name="correct">Correct</string>
+    <string name="delete">Delete</string>
+    <string name="detail">Detail</string>
+    <string name="edit">Edit</string>
+    <string name="education">Education</string>
+    <string name="error">Error</string>
+    <string name="feeling">Feeling</string>
+    <string name="female">Female</string>
+    <string name="hint">提示</string>
+    <string name="identity">Identity</string>
+    <string name="listen">Listen</string>
+    <string name="male">Male</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="option">Option</string>
+    <string name="order">Order</string>
+    <string name="other">Other</string>
+    <string name="promotion">Promotion</string>
+    <string name="province">Province</string>
+    <string name="query">Query</string>
+    <string name="read">Read</string>
+    <string name="school">School</string>
+    <string name="score">Score</string>
+    <string name="search">Search</string>
+    <string name="secret">Secret</string>
+    <string name="sentence">Sentence</string>
+    <string name="sex">Sex</string>
+    <string name="share">Share</string>
+    <string name="speak">Speak</string>
+    <string name="submit">Submit</string>
+    <string name="time">Time</string>
+    <string name="update">Update</string>
+    <string name="username">Username</string>
+    <string name="word">Word</string>
+    <string name="write">Write</string>
+    <string name="yes">Yes</string>
+    //
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="PrimaryButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ProgressPrimary" parent="Widget.AppCompat.ProgressBar">
+
+    </style>
+
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/toolbar_title_text_size</item>
+    </style>
+
+    <string name="title_activity_fight_icon">FightIconActivity</string>
+    <string name="imooc_accomplish">完成</string>
+    <string name="imooc_all_data_fetched">全部数据加载完毕!</string>
+    <string name="imooc_brev_download">试听下载</string>
+    <string name="imooc_brev_listen">试听</string>
+    <string name="imooc_cancel">取消</string>
+    <string name="imooc_check_network">网络异常，请检查网络设置!</string>
+    <string name="imooc_comment_hint">尽情吐槽吧！</string>
+    <string name="imooc_congratulate">恭喜</string>
+    <string name="imooc_course_comment">评论</string>
+    <string name="imooc_course_desc">课程简介</string>
+    <string name="imooc_course_file_error">课程文件出错!</string>
+    <string name="imooc_course_introduction">课程介绍:</string>
+    <string name="imooc_course_list">课程目录</string>
+    <string name="imooc_course_pdf">PDF课件</string>
+    <string name="imooc_course_suit_people">适用人群:</string>
+    <string name="imooc_course_teacher_introduction">名师介绍:</string>
+    <string name="imooc_course_view_counts_info">%1$d阅</string>
+    <string name="imooc_courseware">课件链接：\n%1$s</string>
+    <string name="imooc_download">去下载</string>
+    <string name="imooc_endtime_at_info">到期：%1$s</string>
+    <string name="imooc_exercise">习题</string>
+    <string name="imooc_faq">常见问题</string>
+    <string name="imooc_fetch_data_fail">获取数据失败，请稍后再试!</string>
+    <string name="imooc_give_mark">打分</string>
+<!--    <string name="imooc_is_loading">正在加载…</string>-->
+    <string name="imooc_is_loading"></string>
+    <string name="imooc_later">下次吧</string>
+    <string name="imooc_load_accomplished">加载完毕!</string>
+    <string name="imooc_load_courseware_fail">课件加载失败，请稍后再试!</string>
+    <string name="imooc_load_failed">加载失败，请稍后再试!</string>
+    <string name="imooc_load_type_failed">获取类型失败，请稍后再试!</string>
+    <string name="imooc_loading">内容正在加载…</string>
+    <string name="imooc_login_hint">请先登陆!</string>
+    <string name="imooc_micro_class_download">微课下载</string>
+    <string name="imooc_my_mark">我的评价：</string>
+    <string name="imooc_no_comment">暂无评论!</string>
+    <string name="imooc_no_data">暂无数据!</string>
+    <string name="imooc_payed_info">金额：%1$s</string>
+    <string name="imooc_please_check_network">请检查网络是否可用！</string>
+    <string name="imooc_point_info">%1$.1f分</string>
+    <string name="imooc_purchase_course">购买课程</string>
+    <string name="imooc_purchase_directly">直接购买(%1$s元)(永久学习)</string>
+    <string name="imooc_purchase_directly_succeed_hint">直接购买成功!</string>
+    <string name="imooc_purchase_error">购买时出现错误，请稍后再试.</string>
+    <string name="imooc_purchase_fail_hint">购买失败，%1$s\n请去会员中心购买!</string>
+    <string name="imooc_purchase_iyubi">支付爱语币(%1$d爱语币)(永久学习)</string>
+    <string name="imooc_purchase_message">您需要支付%1$d爱语币或%2$s元购买本套课程，或去会员中心开通黄金会员权限以学习所有微课。</string>
+    <string name="imooc_purchase_records">购买记录</string>
+    <string name="imooc_purchase_succeed_hint">购买成功，您的爱语币余额：%1$s</string>
+    <string name="imooc_purchase_vip">购买黄金会员(解锁全部课程)</string>
+    <string name="imooc_qq_consultation">QQ咨询</string>
+    <string name="imooc_qq_not_installed">您的设备尚未安装QQ客户端</string>
+    <string name="imooc_rating_hint">请对课程打分后提交评论！</string>
+    <string name="imooc_refresh_courseware_fail">课件更新失败，请稍后再试</string>
+    <string name="imooc_refresh_courseware_succeed">课件更新完成!</string>
+    <string name="imooc_send_fail">发送失败，请稍后再试!</string>
+    <string name="imooc_send_succeed">发送成功!</string>
+    <string name="imooc_study_input_comment">请输入评论内容</string>
+    <string name="imooc_study_login_hint">请登陆后，再吐槽吧!</string>
+    <string name="imooc_upload_add_money">获得了+%1$.2f元红包!</string>
+    <string name="imooc_upload_add_score">获得了+%1$d积分!</string>
+    <string name="imooc_upload_failed">数据上传失败</string>
+    <string name="imooc_upload_success">数据上传成功</string>
+
+
+</resources>

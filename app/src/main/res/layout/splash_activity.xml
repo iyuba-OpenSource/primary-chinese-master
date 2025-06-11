@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/splash_background">
+
+<!--    <TextView-->
+<!--        android:id="@+id/jump"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:text="跳过(5)"-->
+<!--        android:textSize="20dp"-->
+<!--        android:gravity="right"-->
+<!--        android:textColor="@color/black"-->
+<!--        ></TextView>-->
+
+    <ImageView
+        android:id="@+id/init_iv"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+
+        android:id="@+id/csj_initad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>

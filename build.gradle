@@ -1,0 +1,65 @@
+
+buildscript {
+    repositories {
+
+        flatDir {
+            dirs "${rootProject.projectDir}/app/libs"
+        }
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+        maven { url 'https://repo1.maven.org/maven2/' }
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://mvn.mob.com/android' }
+
+        maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+
+        maven { url "https://mirrors.tencent.com/repository/maven/QQOpenSDK" }
+        google()
+        jcenter()
+        gradlePluginPortal()
+
+
+        dependencies {
+            classpath 'com.android.tools.build:gradle:7.4.2'
+//        classpath "com.mob.sdk:MobSDK:2018.0319.1724"
+            classpath "com.mob.sdk:MobSDK2:+"
+            classpath 'com.tencent.vasdolly:plugin:3.0.6'
+            classpath 'com.google.gms:google-services:4.3.14'
+        }
+
+    }
+
+
+    allprojects {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+
+            flatDir {
+                dirs "${rootProject.projectDir}/app/libs"
+            }
+            mavenCentral()
+            maven { url 'https://maven.aliyun.com/repository/public' }
+            maven { url 'https://maven.aliyun.com/repository/central' }
+            maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+            maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+            maven { url 'https://repo1.maven.org/maven2/' }
+            maven { url 'https://jitpack.io' }
+            maven { url 'https://mvn.mob.com/android' }
+            maven { url "https://s01.oss.sonatype.org/content/groups/public" }
+            maven { url "https://mirrors.tencent.com/repository/maven/QQOpenSDK" }
+
+            google()
+            jcenter()
+
+            gradlePluginPortal()
+        }
+    }
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}  //删除根项目的构建目录

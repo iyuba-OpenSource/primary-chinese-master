@@ -1,0 +1,16 @@
+<!-- res/drawable/custom_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- 设置填充色 -->
+    <stroke
+        android:width="2dp"
+        android:color="#DDDDDD" /> <!-- 设置边框颜色和宽度 -->
+    <corners android:radius="10dp" /> <!-- 设置圆角半径 -->
+    <padding
+        android:left="5dp"
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp" /> <!-- 设置内边距 -->
+    <size
+        android:width="60dp"
+        android:height="60dp" /> <!-- 设置尺寸 -->
+</shape>

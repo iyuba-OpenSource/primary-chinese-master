@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_weight="1"
+    android:id="@+id/liney"
+    android:clickable="true"
+    android:layout_gravity="center"
+    android:layout_height="70dp"
+    android:orientation="vertical"
+    android:layout_margin="3dp">
+
+    <TextView
+        android:id="@+id/pinyin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pinyin"
+        android:layout_gravity="center"
+        android:gravity="center"></TextView>
+    <TextView
+        android:id="@+id/chinese"
+        android:layout_margin="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@mipmap/tainzige"></TextView>
+
+</LinearLayout>

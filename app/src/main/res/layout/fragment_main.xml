@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+            ></FrameLayout>
+    <LinearLayout
+        android:id="@+id/line_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/main_item_bottom"
+
+        >
+        <LinearLayout
+            android:id="@+id/bookhome_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/bookhome"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:src="@drawable/bookhome"
+                android:layout_gravity="center"
+                android:layout_weight="1"></ImageView>
+            <TextView
+                android:id="@+id/bookhome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="首页"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/word_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/word"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:src="@drawable/word_close"
+                android:layout_gravity="center"
+                android:layout_weight="1"></ImageView>
+            <TextView
+                android:id="@+id/word_text"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="识字"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pome_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/pome"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:src="@drawable/pome_colse"
+                android:layout_gravity="center"
+                android:layout_weight="1"></ImageView>
+            <TextView
+                android:id="@+id/pome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="古诗"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/weike_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/meida"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/media"></ImageView>
+
+            <TextView
+                android:id="@+id/media_text"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="微课"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/person_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/person_colse"
+                android:layout_weight="1"></ImageView>
+            <TextView
+                android:id="@+id/person_text"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="我的"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

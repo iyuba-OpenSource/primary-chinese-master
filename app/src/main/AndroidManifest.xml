@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingLeanbackLauncher,MissingLeanbackSupport">
+
+
+
+
+    <!-- <uses-sdk tools:overrideLibrary="com.vector.update_app/> -->
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+
+    <!-- 移除检测晃动权限 -->
+    <uses-permission
+        android:name="android.permission.VIBRATE"
+        tools:node="remove"></uses-permission>
+
+    <!-- 微信支付 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+
+
+
+
+
+
+
+    <uses-sdk tools:overrideLibrary="com.johnwa.spannabletext" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--用于模版广告图片缓存 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:name=".Activity_and_Fragment.Top_page.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/chinese"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cto1"
+        android:usesCleartextTraffic="true"
+        android:visibility="visible"
+        tools:replace="android:allowBackup,android:theme,android:networkSecurityConfig"
+        tools:targetApi="31">
+
+        <service
+            android:name=".Activity_and_Fragment.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.BuyiyubiActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.BuyPrivacyActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.Core_Pack_Integral.WkBuyActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.QuickLoginActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.OneClickLoginActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.BuyActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Word.Three_icon.ThreeActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Pome.SmallPomeActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Word.Three_icon.TowActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Word.Three_icon.OneActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.OriDetail.LeaderSmallActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Top_page.MainFragmentActivity"
+            android:exported="true"
+            android:launchMode="singleTask" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.Core_Pack_Integral.PackActivtiy"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.OriDetail.OriDetailActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/mainStyle" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.LoginActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.PrivacyActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Home.BookIconActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Home.FightIconActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.TermActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.option_need.AboutActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.RegisterActivtiy"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Person.FinishActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity_and_Fragment.Top_page.SplashActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

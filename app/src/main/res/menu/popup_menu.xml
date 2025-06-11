@@ -1,0 +1,7 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action1"
+        android:title="字体大小设置" />
+    <item android:id="@+id/action2"
+        android:title="拼音显示" />
+</menu>

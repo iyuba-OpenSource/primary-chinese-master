@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F18E1B" />  <!-- 设置LinearLayout的背景颜色 -->
+    <corners android:radius="8dp" />  <!-- 设置圆角的半径大小 -->
+
+</shape>
